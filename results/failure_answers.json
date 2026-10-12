@@ -1,0 +1,1168 @@
+{
+ "llm": "Qwen/Qwen2.5-0.5B-Instruct (local, CPU, greedy)",
+ "records": [
+  {
+   "id": "F1",
+   "query": "How much can a company be fined for violating the conditions for consent?",
+   "context_1": [
+    "Recital 150",
+    "Article 84",
+    "Article 83"
+   ],
+   "gold_in_context_1": false,
+   "context_2": [
+    "Article 83",
+    "Article 83",
+    "Article 83"
+   ],
+   "gold_in_context_2": true,
+   "answer_1": "Answer: A company can be fined up to 2% of the total worldwide annual turnover of the preceding financial year, depending on the severity of the violation.",
+   "answer_2": "Answer: A company can be fined up to 20 million euros for violating the conditions for consent. This amount is determined by the severity of the violation and the gravity of the offense.",
+   "gen_time_1": 4.948398599983193,
+   "gen_time_2": 5.802638799999841
+  },
+  {
+   "id": "F2",
+   "query": "When is a controller not required to tell individuals about a data breach?",
+   "context_1": [
+    "Article 34",
+    "Recital 86",
+    "Recital 85"
+   ],
+   "gold_in_context_1": false,
+   "context_2": [
+    "Recital 85",
+    "Article 34",
+    "Article 34"
+   ],
+   "gold_in_context_2": true,
+   "answer_1": "Evidence: Recital 86\n\nAnswer: A controller is not required to inform individuals about a data breach if the personal data breach is likely to result in a high risk to the rights and freedoms of the natural person.",
+   "answer_2": "Evidence: Recital 85, Cont.\nAnswer: A controller is not required to inform individuals about a data breach when:\n\n1. The controller has already notified the supervisory authority within 72 hours.\n2. The controller can demonstrate that the personal data breach is unlikely to result in a significant risk to the rights and freedoms of natural persons.\n3. The controller takes appropriate technical and organisational protection measures to prevent the breach from occurring.\n4. The controller takes subsequent measures to mitigate the risk of the breach occurring.\n5. There is a public communication or similar measure available to inform the data subjects in an equally effective manner.",
+   "gen_time_1": 5.637605900061317,
+   "gen_time_2": 17.618998100049794
+  },
+  {
+   "id": "F3",
+   "query": "Can a data protection officer be fired for doing their job?",
+   "context_1": [
+    "Article 38",
+    "Article 37",
+    "Article 39"
+   ],
+   "gold_in_context_1": false,
+   "context_2": [
+    "Article 38",
+    "Article 37",
+    "Article 38"
+   ],
+   "gold_in_context_2": true,
+   "answer_1": "Evidence: Article 38 states that a data protection officer can perform tasks related to personal data processing but cannot be fired for doing so.\nAnswer: A data protection officer cannot be fired for performing their job. According to Article 38, they are bound by secrecy or confidentiality regarding their tasks and cannot be fired for doing so.",
+   "answer_2": "Evidence: Article 38 states \"The data protection officer shall be bound by secrecy or confidentiality concerning the performance of his or her tasks, in accordance with Union or Member State law.\" This implies that the data protection officer cannot be fired for doing their job.\nAnswer: No, a data protection officer cannot be fired for doing their job. According to Article 38, they are bound by secrecy or confidentiality concerning the performance of their tasks, which means they cannot be fired for failing to perform their duties effectively.",
+   "gen_time_1": 15.978278799913824,
+   "gen_time_2": 11.314143700059503
+  },
+  {
+   "id": "F4",
+   "query": "Is the controller allowed to ignore a request that is excessive?",
+   "context_1": [
+    "Recital 64",
+    "Recital 63",
+    "Recital 47"
+   ],
+   "gold_in_context_1": false,
+   "context_2": [
+    "Article 12",
+    "Recital 64",
+    "Recital 63"
+   ],
+   "gold_in_context_2": true,
+   "answer_1": "Answer: Evidence: Recital 64 states \"The controller should use all reasonable measures to verify the identity of a data subject who requests access, in particular in the context of online services and online identifiers.\" This suggests that controllers have the responsibility to verify the identity of individuals requesting access to their data.\nAnswer: Recital 63 states \"Where possible, the controller should be able to provide remote access to a secure system which would provide the data subject with direct access to his or her personal data.\" This indicates that controllers have the ability to provide remote access to data subjects.\nAnswer: Recital 47 states \"The legitimate interests of a controller, including those of a controller to which the personal data may be disclosed, or of a third party, may provide a legal basis for processing, provided that the interests or the fundamental rights and freedoms of the data subject are not overriding, taking into consideration the reasonable expectations of data subjects based on their relationship with the controller.\" This further supports the",
+   "answer_2": "Answer: Evidence: Article 12 states that if a request is manifestly unfounded or excessive, the controller may charge a reasonable fee. It also mentions that the controller must demonstrate the manifestly unfounded or excessive character of the request. Therefore, the controller cannot ignore an excessive request.\nAnswer: The controller cannot ignore an excessive request. According to Article 12, if a request is manifestly unfounded or excessive, the controller may charge a reasonable fee. Additionally, according to Article 12, the controller must demonstrate the manifestly unfounded or excessive character of the request. Therefore, the controller cannot ignore an excessive request.",
+   "gen_time_1": 18.376964200055227,
+   "gen_time_2": 12.590282499906607
+  },
+  {
+   "id": "F5",
+   "query": "Is consent valid if the service is conditional on agreeing to unnecessary data processing?",
+   "context_1": [
+    "Recital 43",
+    "Recital 32",
+    "Article 7"
+   ],
+   "gold_in_context_1": false,
+   "context_2": [
+    "Article 7",
+    "Recital 43",
+    "Recital 32"
+   ],
+   "gold_in_context_2": true,
+   "answer_1": "Evidence: Recital 43 states \"If the data subject's consent is to be given following a request by electronic means, the request must be clear, concise and not unnecessarily disruptive to the use of the service for which it is provided.\"\n\nAnswer: Yes, consent can be valid even if the service is conditional on agreeing to unnecessary data processing. The requirement for clarity, conciseness, and accessibility in the request for consent aligns with the principle of free consent, allowing for the separation of consent for different types of personal data processing while still ensuring that consent is freely given.",
+   "answer_2": "Evidence: \nThe data subject shall have the right to withdraw his or her consent at any time. The withdrawal of consent shall not affect the lawfulness of processing based on consent before its withdrawal. Prior to giving consent, the data subject shall be informed thereof. It shall be as easy to withdraw as to give consent.\n\nAnswer: Consent is valid if the service is conditional on agreeing to unnecessary data processing. The service must be conditional on the data subject's consent to avoid invalidity due to unnecessary data processing.",
+   "gen_time_1": 11.267742000054568,
+   "gen_time_2": 10.401665600016713
+  },
+  {
+   "id": "F6",
+   "query": "Can government bodies be fined under the GDPR?",
+   "context_1": [
+    "Article 83",
+    "Recital 154",
+    "Article 83"
+   ],
+   "gold_in_context_1": false,
+   "context_2": [
+    "Article 83",
+    "Article 83",
+    "Article 83"
+   ],
+   "gold_in_context_2": true,
+   "answer_1": "Evidence: \nThe reference to public authorities and bodies should in that context include all authorities or other bodies covered by Member State law on public access to documents. Directive 2003/98/EC of the European Parliament and of the Council (1) leaves intact and in no way affects the level of protection of natural persons with regard to the processing of personal data under the provisions of Union and Member State law, and in particular does not alter the obligations and rights set out in this Regulation.\n\nAnswer: Government bodies can be fined under the GDPR. According to Article 83 of the GDPR, government bodies can be fined if they intentionally or negligently, for the same or linked processing operations, infringe several provisions of this Regulation.",
+   "answer_2": "Evidence: \nThe obligations of the controller and the processor pursuant to Articles 8, 11, 25 to 39 and 42 and 43; the obligations of the certification body pursuant to Articles 42 and 43; the obligations of the monitoring body pursuant to Article 41(4); the basic principles for processing, including conditions for consent, pursuant to Articles 5, 6, 7 and 9; the data subjects' rights pursuant to Articles 12 to 22; the transfers of personal data to a recipient in a third country or an international organisation pursuant to Articles 44 to 49; any obligations pursuant to Member State law adopted under Chapter IX; non-compliance with an order or a temporary or definitive limitation on processing or the suspension of data flows by the supervisory authority pursuant to Article 58(2) or failure to provide access in violation of Article 58(1).",
+   "gen_time_1": 14.81595209997613,
+   "gen_time_2": 19.2563555999659
+  },
+  {
+   "id": "L1",
+   "query": "When can a controller refuse a request to erase personal data?",
+   "context_1": [
+    "Recital 66",
+    "Article 17",
+    "Article 17"
+   ],
+   "gold_in_context_1": false,
+   "context_2": [
+    "Article 17",
+    "Article 17",
+    "Recital 66"
+   ],
+   "gold_in_context_2": false,
+   "answer_1": "Evidence: Recital 66\n\nAnswer: A controller may refuse a request to erase personal data when it has made the personal data public and is obliged pursuant to paragraph 1 to erase the personal data. The controller must take reasonable steps, including technical measures, to inform controllers which are processing the personal data that the data subject has requested the erasure by such controllers of any links to, or copies or replications of, those personal data.\nEvidence: Article 17\n\nAnswer: The controller must take reasonable steps, including technical measures, to inform controllers which are processing the personal data that the data subject has requested the erasure by such controllers of any links to, or copies or replications of, those personal data.",
+   "answer_2": "Evidence: \nThe controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:\n\nAnswer: A controller may refuse a request to erase personal data if it considers that the processing of the personal data is necessary for the purposes for which it was collected or otherwise processed, unless the data subject withdraws consent on which the processing is based according to point (a) of Article 6(1), or point (a) of Article 9(2), and where there is no other legal ground for the processing.\nThe controller may refuse a request to erase personal data if it considers that the processing of the personal data is necessary for the purposes for which it was collected or otherwise processed, unless the data subject withdraws consent on which the processing is based according to point (a) of Article 6(1), or point (a) of Article 9(2), and where there is no other legal ground for the processing.\nThe controller may refuse a request",
+   "gen_time_1": 14.13130209990777,
+   "gen_time_2": 18.58927140000742
+  },
+  {
+   "id": "L2",
+   "query": "When must a company appoint a DPO?",
+   "context_1": [
+    "Article 54",
+    "Article 62",
+    "Article 56"
+   ],
+   "gold_in_context_1": false,
+   "context_2": [
+    "Article 54",
+    "Recital 134",
+    "Recital 121"
+   ],
+   "gold_in_context_2": false,
+   "answer_1": "Evidence: \nWhen the Company must appoint a DPO.\n\nAnswer: A company must appoint a Data Protection Officer (DPO) according to Article 54 of the General Data Protection Regulation (GDPR). This regulation requires companies to establish supervisory authorities, qualify their members, set rules and procedures for appointments, and have a term limit of up to four years. Additionally, companies are prohibited from seeking reimbursement from other Member States for damages related to data protection obligations.",
+   "answer_2": "Evidence: \nWhen appropriate, the supervisory authority should participate in joint operations with other supervisory authorities.\nAnswer: A company must appoint a Data Protection Officer (DPO) when appropriate, according to Article 54 of the GDPR. This applies when the supervisory authority has been designated by the Member State to oversee data protection obligations and has the capacity to ensure compliance with these obligations.",
+   "gen_time_1": 10.098181999986991,
+   "gen_time_2": 7.932867499999702
+  },
+  {
+   "id": "L3",
+   "query": "Can a supervisory authority check the work of a judge?",
+   "context_1": [
+    "Recital 143",
+    "Recital 129",
+    "Article 55"
+   ],
+   "gold_in_context_1": true,
+   "context_2": [
+    "Recital 118",
+    "Article 78",
+    "Recital 143"
+   ],
+   "gold_in_context_2": false,
+   "answer_1": "Evidence: Recital 143, Cont.\nAnswer: No, a supervisory authority cannot check the work of a judge without being bound by the provisions of Article 263 TFEU.",
+   "answer_2": "Evidence: Recital 118 states \"The independence of supervisory authorities should not mean that the supervisory authorities cannot be subject to control or monitoring mechanisms regarding their financial expenditure or to judicial review.\"\n\nAnswer: No, a supervisory authority cannot check the work of a judge without being subject to control or monitoring mechanisms regarding their financial expenditure or to judicial review.\n\nEvidence: Article 78 states \"Where proceedings are brought against a decision of a supervisory authority which was preceded by an opinion or a decision of the Board in the consistency mechanism, the supervisory authority shall forward that opinion or decision to the court.\"\n\nAnswer: A supervisory authority can check the work of a judge if it has obtained a court order for the purpose.\n\nEvidence: Recital 143 states \"Without prejudice to this right under Article 263 TFEU, each natural or legal person should have an effective judicial remedy before the competent national court against a decision of a supervisory authority which produces legal",
+   "gen_time_1": 5.3516048999736086,
+   "gen_time_2": 17.951903100009076
+  }
+ ],
+ "rank_shifts": [
+  {
+   "id": "F1",
+   "category": "Keyword trap / distractor",
+   "query": "How much can a company be fined for violating the conditions for consent?",
+   "gold_baseline_rank": 7,
+   "gold_rerank_rank": 1,
+   "baseline_top3": [
+    "Recital 150",
+    "Article 84",
+    "Article 83"
+   ],
+   "rerank_top3": [
+    "Article 83",
+    "Article 83",
+    "Article 83"
+   ],
+   "top10_table": [
+    {
+     "baseline_rank": 1,
+     "rerank_rank": 8,
+     "shift": -7,
+     "source": "Recital 150",
+     "cosine": 0.528,
+     "ce_score": -5.637,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 2,
+     "rerank_rank": 9,
+     "shift": -7,
+     "source": "Article 84",
+     "cosine": 0.509,
+     "ce_score": -5.669,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 3,
+     "rerank_rank": 2,
+     "shift": 1,
+     "source": "Article 83",
+     "cosine": 0.5,
+     "ce_score": 0.035,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 4,
+     "rerank_rank": 7,
+     "shift": -3,
+     "source": "Recital 148",
+     "cosine": 0.499,
+     "ce_score": -5.411,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 5,
+     "rerank_rank": 3,
+     "shift": 2,
+     "source": "Article 83",
+     "cosine": 0.497,
+     "ce_score": -1.261,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 6,
+     "rerank_rank": 5,
+     "shift": 1,
+     "source": "Article 83",
+     "cosine": 0.486,
+     "ce_score": -4.446,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 7,
+     "rerank_rank": 1,
+     "shift": 6,
+     "source": "Article 83",
+     "cosine": 0.483,
+     "ce_score": 4.655,
+     "gold": "GOLD"
+    },
+    {
+     "baseline_rank": 8,
+     "rerank_rank": 4,
+     "shift": 4,
+     "source": "Article 83",
+     "cosine": 0.483,
+     "ce_score": -4.429,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 9,
+     "rerank_rank": 6,
+     "shift": 3,
+     "source": "Article 83",
+     "cosine": 0.459,
+     "ce_score": -4.892,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 10,
+     "rerank_rank": 10,
+     "shift": 0,
+     "source": "Recital 149",
+     "cosine": 0.445,
+     "ce_score": -7.21,
+     "gold": ""
+    }
+   ]
+  },
+  {
+   "id": "F2",
+   "category": "Exception / corner case",
+   "query": "When is a controller not required to tell individuals about a data breach?",
+   "gold_baseline_rank": 4,
+   "gold_rerank_rank": 2,
+   "baseline_top3": [
+    "Article 34",
+    "Recital 86",
+    "Recital 85"
+   ],
+   "rerank_top3": [
+    "Recital 85",
+    "Article 34",
+    "Article 34"
+   ],
+   "top10_table": [
+    {
+     "baseline_rank": 1,
+     "rerank_rank": 3,
+     "shift": -2,
+     "source": "Article 34",
+     "cosine": 0.733,
+     "ce_score": 5.898,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 2,
+     "rerank_rank": 5,
+     "shift": -3,
+     "source": "Recital 86",
+     "cosine": 0.71,
+     "ce_score": 3.928,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 3,
+     "rerank_rank": 1,
+     "shift": 2,
+     "source": "Recital 85",
+     "cosine": 0.694,
+     "ce_score": 6.624,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 4,
+     "rerank_rank": 2,
+     "shift": 2,
+     "source": "Article 34",
+     "cosine": 0.687,
+     "ce_score": 5.923,
+     "gold": "GOLD"
+    },
+    {
+     "baseline_rank": 5,
+     "rerank_rank": 9,
+     "shift": -4,
+     "source": "Article 33",
+     "cosine": 0.649,
+     "ce_score": 2.015,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 6,
+     "rerank_rank": 8,
+     "shift": -2,
+     "source": "Article 33",
+     "cosine": 0.637,
+     "ce_score": 3.671,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 7,
+     "rerank_rank": 4,
+     "shift": 3,
+     "source": "Article 33",
+     "cosine": 0.633,
+     "ce_score": 4.987,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 8,
+     "rerank_rank": 7,
+     "shift": 1,
+     "source": "Article 34",
+     "cosine": 0.597,
+     "ce_score": 3.773,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 9,
+     "rerank_rank": 10,
+     "shift": -1,
+     "source": "Recital 88",
+     "cosine": 0.594,
+     "ce_score": -1.732,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 10,
+     "rerank_rank": 6,
+     "shift": 4,
+     "source": "Recital 57",
+     "cosine": 0.578,
+     "ce_score": 3.895,
+     "gold": ""
+    }
+   ]
+  },
+  {
+   "id": "F3",
+   "category": "Negation & role limits",
+   "query": "Can a data protection officer be fired for doing their job?",
+   "gold_baseline_rank": 6,
+   "gold_rerank_rank": 3,
+   "baseline_top3": [
+    "Article 38",
+    "Article 37",
+    "Article 39"
+   ],
+   "rerank_top3": [
+    "Article 38",
+    "Article 37",
+    "Article 38"
+   ],
+   "top10_table": [
+    {
+     "baseline_rank": 1,
+     "rerank_rank": 1,
+     "shift": 0,
+     "source": "Article 38",
+     "cosine": 0.61,
+     "ce_score": 1.88,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 2,
+     "rerank_rank": 2,
+     "shift": 0,
+     "source": "Article 37",
+     "cosine": 0.566,
+     "ce_score": 1.82,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 3,
+     "rerank_rank": 5,
+     "shift": -2,
+     "source": "Article 39",
+     "cosine": 0.534,
+     "ce_score": 0.602,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 4,
+     "rerank_rank": 8,
+     "shift": -4,
+     "source": "Article 37",
+     "cosine": 0.518,
+     "ce_score": -0.307,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 5,
+     "rerank_rank": 4,
+     "shift": 1,
+     "source": "Article 39",
+     "cosine": 0.511,
+     "ce_score": 1.593,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 6,
+     "rerank_rank": 3,
+     "shift": 3,
+     "source": "Article 38",
+     "cosine": 0.492,
+     "ce_score": 1.724,
+     "gold": "GOLD"
+    },
+    {
+     "baseline_rank": 7,
+     "rerank_rank": 9,
+     "shift": -2,
+     "source": "Recital 87",
+     "cosine": 0.489,
+     "ce_score": -5.949,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 8,
+     "rerank_rank": 7,
+     "shift": 1,
+     "source": "Article 37",
+     "cosine": 0.476,
+     "ce_score": -0.303,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 9,
+     "rerank_rank": 10,
+     "shift": -1,
+     "source": "Article 34",
+     "cosine": 0.462,
+     "ce_score": -7.529,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 10,
+     "rerank_rank": 6,
+     "shift": 4,
+     "source": "Article 39",
+     "cosine": 0.459,
+     "ce_score": 0.159,
+     "gold": ""
+    }
+   ]
+  },
+  {
+   "id": "F4",
+   "category": "Negation + synonym",
+   "query": "Is the controller allowed to ignore a request that is excessive?",
+   "gold_baseline_rank": 4,
+   "gold_rerank_rank": 1,
+   "baseline_top3": [
+    "Recital 64",
+    "Recital 63",
+    "Recital 47"
+   ],
+   "rerank_top3": [
+    "Article 12",
+    "Recital 64",
+    "Recital 63"
+   ],
+   "top10_table": [
+    {
+     "baseline_rank": 1,
+     "rerank_rank": 2,
+     "shift": -1,
+     "source": "Recital 64",
+     "cosine": 0.541,
+     "ce_score": -0.537,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 2,
+     "rerank_rank": 3,
+     "shift": -1,
+     "source": "Recital 63",
+     "cosine": 0.461,
+     "ce_score": -1.489,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 3,
+     "rerank_rank": 9,
+     "shift": -6,
+     "source": "Recital 47",
+     "cosine": 0.459,
+     "ce_score": -7.103,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 4,
+     "rerank_rank": 1,
+     "shift": 3,
+     "source": "Article 12",
+     "cosine": 0.449,
+     "ce_score": 3.748,
+     "gold": "GOLD"
+    },
+    {
+     "baseline_rank": 5,
+     "rerank_rank": 4,
+     "shift": 1,
+     "source": "Recital 59",
+     "cosine": 0.42,
+     "ce_score": -1.695,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 6,
+     "rerank_rank": 5,
+     "shift": 1,
+     "source": "Article 18",
+     "cosine": 0.41,
+     "ce_score": -4.359,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 7,
+     "rerank_rank": 8,
+     "shift": -1,
+     "source": "Recital 50",
+     "cosine": 0.398,
+     "ce_score": -5.127,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 8,
+     "rerank_rank": 6,
+     "shift": 2,
+     "source": "Recital 57",
+     "cosine": 0.397,
+     "ce_score": -4.525,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 9,
+     "rerank_rank": 10,
+     "shift": -1,
+     "source": "Recital 68",
+     "cosine": 0.397,
+     "ce_score": -7.383,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 10,
+     "rerank_rank": 7,
+     "shift": 3,
+     "source": "Recital 66",
+     "cosine": 0.389,
+     "ce_score": -4.989,
+     "gold": ""
+    }
+   ]
+  },
+  {
+   "id": "F5",
+   "category": "Buried exception (rank 4-10)",
+   "query": "Is consent valid if the service is conditional on agreeing to unnecessary data processing?",
+   "gold_baseline_rank": 4,
+   "gold_rerank_rank": 1,
+   "baseline_top3": [
+    "Recital 43",
+    "Recital 32",
+    "Article 7"
+   ],
+   "rerank_top3": [
+    "Article 7",
+    "Recital 43",
+    "Recital 32"
+   ],
+   "top10_table": [
+    {
+     "baseline_rank": 1,
+     "rerank_rank": 2,
+     "shift": -1,
+     "source": "Recital 43",
+     "cosine": 0.741,
+     "ce_score": 5.281,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 2,
+     "rerank_rank": 4,
+     "shift": -2,
+     "source": "Recital 32",
+     "cosine": 0.686,
+     "ce_score": 3.422,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 3,
+     "rerank_rank": 6,
+     "shift": -3,
+     "source": "Article 7",
+     "cosine": 0.658,
+     "ce_score": 3.202,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 4,
+     "rerank_rank": 1,
+     "shift": 3,
+     "source": "Article 7",
+     "cosine": 0.652,
+     "ce_score": 5.353,
+     "gold": "GOLD"
+    },
+    {
+     "baseline_rank": 5,
+     "rerank_rank": 3,
+     "shift": 2,
+     "source": "Recital 32",
+     "cosine": 0.642,
+     "ce_score": 4.491,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 6,
+     "rerank_rank": 5,
+     "shift": 1,
+     "source": "Recital 42",
+     "cosine": 0.596,
+     "ce_score": 3.236,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 7,
+     "rerank_rank": 8,
+     "shift": -1,
+     "source": "Recital 40",
+     "cosine": 0.589,
+     "ce_score": 2.407,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 8,
+     "rerank_rank": 7,
+     "shift": 1,
+     "source": "Article 6",
+     "cosine": 0.578,
+     "ce_score": 2.474,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 9,
+     "rerank_rank": 10,
+     "shift": -1,
+     "source": "Recital 68",
+     "cosine": 0.565,
+     "ce_score": -2.318,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 10,
+     "rerank_rank": 9,
+     "shift": 1,
+     "source": "Recital 33",
+     "cosine": 0.553,
+     "ce_score": 0.573,
+     "gold": ""
+    }
+   ]
+  },
+  {
+   "id": "F6",
+   "category": "Scope exception (rank 4-10)",
+   "query": "Can government bodies be fined under the GDPR?",
+   "gold_baseline_rank": 4,
+   "gold_rerank_rank": 1,
+   "baseline_top3": [
+    "Article 83",
+    "Recital 154",
+    "Article 83"
+   ],
+   "rerank_top3": [
+    "Article 83",
+    "Article 83",
+    "Article 83"
+   ],
+   "top10_table": [
+    {
+     "baseline_rank": 1,
+     "rerank_rank": 3,
+     "shift": -2,
+     "source": "Article 83",
+     "cosine": 0.543,
+     "ce_score": -5.132,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 2,
+     "rerank_rank": 4,
+     "shift": -2,
+     "source": "Recital 154",
+     "cosine": 0.539,
+     "ce_score": -9.392,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 3,
+     "rerank_rank": 2,
+     "shift": 1,
+     "source": "Article 83",
+     "cosine": 0.534,
+     "ce_score": -5.097,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 4,
+     "rerank_rank": 1,
+     "shift": 3,
+     "source": "Article 83",
+     "cosine": 0.53,
+     "ce_score": -1.872,
+     "gold": "GOLD"
+    },
+    {
+     "baseline_rank": 5,
+     "rerank_rank": 5,
+     "shift": 0,
+     "source": "Recital 19",
+     "cosine": 0.52,
+     "ce_score": -9.968,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 6,
+     "rerank_rank": 9,
+     "shift": -3,
+     "source": "Recital 16",
+     "cosine": 0.517,
+     "ce_score": -11.201,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 7,
+     "rerank_rank": 6,
+     "shift": 1,
+     "source": "Recital 19",
+     "cosine": 0.513,
+     "ce_score": -10.916,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 8,
+     "rerank_rank": 8,
+     "shift": 0,
+     "source": "Recital 13",
+     "cosine": 0.502,
+     "ce_score": -10.985,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 9,
+     "rerank_rank": 10,
+     "shift": -1,
+     "source": "Recital 51",
+     "cosine": 0.501,
+     "ce_score": -11.21,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 10,
+     "rerank_rank": 7,
+     "shift": 3,
+     "source": "Recital 115",
+     "cosine": 0.501,
+     "ce_score": -10.949,
+     "gold": ""
+    }
+   ]
+  },
+  {
+   "id": "L1",
+   "category": "Limitation: recall ceiling",
+   "query": "When can a controller refuse a request to erase personal data?",
+   "gold_baseline_rank": null,
+   "gold_rerank_rank": null,
+   "baseline_top3": [
+    "Recital 66",
+    "Article 17",
+    "Article 17"
+   ],
+   "rerank_top3": [
+    "Article 17",
+    "Article 17",
+    "Recital 66"
+   ],
+   "top10_table": [
+    {
+     "baseline_rank": 1,
+     "rerank_rank": 3,
+     "shift": -2,
+     "source": "Recital 66",
+     "cosine": 0.768,
+     "ce_score": 4.261,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 2,
+     "rerank_rank": 1,
+     "shift": 1,
+     "source": "Article 17",
+     "cosine": 0.747,
+     "ce_score": 4.724,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 3,
+     "rerank_rank": 2,
+     "shift": 1,
+     "source": "Article 17",
+     "cosine": 0.708,
+     "ce_score": 4.398,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 4,
+     "rerank_rank": 5,
+     "shift": -1,
+     "source": "Article 17",
+     "cosine": 0.669,
+     "ce_score": 3.116,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 5,
+     "rerank_rank": 10,
+     "shift": -5,
+     "source": "Recital 68",
+     "cosine": 0.666,
+     "ce_score": 0.014,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 6,
+     "rerank_rank": 8,
+     "shift": -2,
+     "source": "Recital 65",
+     "cosine": 0.665,
+     "ce_score": 1.041,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 7,
+     "rerank_rank": 7,
+     "shift": 0,
+     "source": "Recital 64",
+     "cosine": 0.629,
+     "ce_score": 2.103,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 8,
+     "rerank_rank": 4,
+     "shift": 4,
+     "source": "Article 19",
+     "cosine": 0.625,
+     "ce_score": 4.017,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 9,
+     "rerank_rank": 9,
+     "shift": 0,
+     "source": "Article 14",
+     "cosine": 0.603,
+     "ce_score": 1.0,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 10,
+     "rerank_rank": 6,
+     "shift": 4,
+     "source": "Recital 63",
+     "cosine": 0.594,
+     "ce_score": 2.994,
+     "gold": ""
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "category": "Limitation: vocabulary gap",
+   "query": "When must a company appoint a DPO?",
+   "gold_baseline_rank": null,
+   "gold_rerank_rank": null,
+   "baseline_top3": [
+    "Article 54",
+    "Article 62",
+    "Article 56"
+   ],
+   "rerank_top3": [
+    "Article 54",
+    "Recital 134",
+    "Recital 121"
+   ],
+   "top10_table": [
+    {
+     "baseline_rank": 1,
+     "rerank_rank": 1,
+     "shift": 0,
+     "source": "Article 54",
+     "cosine": 0.421,
+     "ce_score": -5.892,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 2,
+     "rerank_rank": 10,
+     "shift": -8,
+     "source": "Article 62",
+     "cosine": 0.418,
+     "ce_score": -10.721,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 3,
+     "rerank_rank": 7,
+     "shift": -4,
+     "source": "Article 56",
+     "cosine": 0.416,
+     "ce_score": -10.253,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 4,
+     "rerank_rank": 2,
+     "shift": 2,
+     "source": "Recital 134",
+     "cosine": 0.41,
+     "ce_score": -9.073,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 5,
+     "rerank_rank": 9,
+     "shift": -4,
+     "source": "Article 66",
+     "cosine": 0.392,
+     "ce_score": -10.636,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 6,
+     "rerank_rank": 5,
+     "shift": 1,
+     "source": "Recital 137",
+     "cosine": 0.388,
+     "ce_score": -9.959,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 7,
+     "rerank_rank": 3,
+     "shift": 4,
+     "source": "Recital 121",
+     "cosine": 0.386,
+     "ce_score": -9.39,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 8,
+     "rerank_rank": 4,
+     "shift": 4,
+     "source": "Article 47",
+     "cosine": 0.381,
+     "ce_score": -9.885,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 9,
+     "rerank_rank": 8,
+     "shift": 1,
+     "source": "Article 64",
+     "cosine": 0.381,
+     "ce_score": -10.359,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 10,
+     "rerank_rank": 6,
+     "shift": 4,
+     "source": "Recital 127",
+     "cosine": 0.379,
+     "ce_score": -10.047,
+     "gold": ""
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "category": "Limitation: re-ranker regression",
+   "query": "Can a supervisory authority check the work of a judge?",
+   "gold_baseline_rank": 3,
+   "gold_rerank_rank": 5,
+   "baseline_top3": [
+    "Recital 143",
+    "Recital 129",
+    "Article 55"
+   ],
+   "rerank_top3": [
+    "Recital 118",
+    "Article 78",
+    "Recital 143"
+   ],
+   "top10_table": [
+    {
+     "baseline_rank": 1,
+     "rerank_rank": 3,
+     "shift": -2,
+     "source": "Recital 143",
+     "cosine": 0.646,
+     "ce_score": 0.546,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 2,
+     "rerank_rank": 4,
+     "shift": -2,
+     "source": "Recital 129",
+     "cosine": 0.64,
+     "ce_score": 0.203,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 3,
+     "rerank_rank": 5,
+     "shift": -2,
+     "source": "Article 55",
+     "cosine": 0.624,
+     "ce_score": -0.211,
+     "gold": "GOLD"
+    },
+    {
+     "baseline_rank": 4,
+     "rerank_rank": 8,
+     "shift": -4,
+     "source": "Recital 121",
+     "cosine": 0.603,
+     "ce_score": -1.009,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 5,
+     "rerank_rank": 9,
+     "shift": -4,
+     "source": "Recital 129",
+     "cosine": 0.602,
+     "ce_score": -1.108,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 6,
+     "rerank_rank": 6,
+     "shift": 0,
+     "source": "Article 78",
+     "cosine": 0.597,
+     "ce_score": -0.376,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 7,
+     "rerank_rank": 7,
+     "shift": 0,
+     "source": "Recital 121",
+     "cosine": 0.587,
+     "ce_score": -0.913,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 8,
+     "rerank_rank": 10,
+     "shift": -2,
+     "source": "Article 58",
+     "cosine": 0.586,
+     "ce_score": -1.248,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 9,
+     "rerank_rank": 1,
+     "shift": 8,
+     "source": "Recital 118",
+     "cosine": 0.577,
+     "ce_score": 1.367,
+     "gold": ""
+    },
+    {
+     "baseline_rank": 10,
+     "rerank_rank": 2,
+     "shift": 8,
+     "source": "Article 78",
+     "cosine": 0.577,
+     "ce_score": 0.853,
+     "gold": ""
+    }
+   ]
+  }
+ ]
+}

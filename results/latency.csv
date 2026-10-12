@@ -1,0 +1,6 @@
+,mean (ms),median (ms),p95 (ms)
+Stage 1: bi-encoder retrieval (query encode + top-10 search),22.7,22.8,26.8
+Stage 2: cross-encoder re-rank of 10 pairs,215.3,209.9,272.7
+Pipeline 1 total retrieval,22.7,22.8,26.8
+Pipeline 2 total retrieval,238.1,232.4,297.6
+LLM generation (per answer),12336.9,11952.2,18689.3

@@ -1,0 +1,56 @@
+query,rank_baseline,rank_rerank,t_retrieval,t_rerank,top_ce_score
+How long does a company have to report a data leak to the authorities?,2.0,1.0,0.0201173999812454,0.21751230000518262,-0.026886748149991035
+What is the maximum fine for breaking the rules?,3.0,1.0,0.0231651000212878,0.22410130000207573,-2.252347946166992
+At what age can a child consent to online services on their own?,1.0,1.0,0.025440199999138713,0.2010196999181062,4.082776069641113
+When can a controller refuse a request to erase personal data?,,,0.02591600001323968,0.2300387000432238,4.724327087402344
+Does a company with fewer than 250 employees need to keep records of processing activities?,1.0,1.0,0.021934399963356555,0.2227291000308469,5.641410827636719
+When is a controller not required to tell individuals about a data breach?,4.0,2.0,0.02246979996562004,0.1963270999258384,6.623653411865234
+Is a company outside the EU always required to appoint a representative in the Union?,,,0.02412780001759529,0.20004870009142905,-2.126556158065796
+Which activities is the GDPR not applicable to?,1.0,1.0,0.024337399983778596,0.21505460003390908,-0.7017152905464172
+Can a data protection officer be fired for doing their job?,6.0,3.0,0.025041599990800023,0.1997241999488324,1.8796169757843018
+Is it prohibited to process health data?,,,0.02050270000472665,0.19612249999772757,6.226523399353027
+Can a person refuse to be subject to a decision made only by an algorithm?,2.0,2.0,0.025349700008518994,0.20613740000408143,3.3588247299194336
+Can the controller charge a fee for giving me a copy of my data?,1.0,1.0,0.026890299981459975,0.21240079996641725,6.120676040649414
+Can the supervisory authority charge the data subject for handling a complaint?,1.0,1.0,0.023299399996176362,0.1842107999837026,8.907838821411133
+Is consent valid if the service is conditional on agreeing to unnecessary data processing?,4.0,1.0,0.02716089994646609,0.2095271999714896,5.352969646453857
+Can a member state lower the age of consent for children below 13?,1.0,1.0,0.02263749996200204,0.1889534000074491,6.205521583557129
+How quickly must a controller respond to a data subject's access request?,2.0,1.0,0.021458800067193806,0.21730969997588545,6.392820358276367
+When is a data protection impact assessment not required?,3.0,2.0,0.024950499995611608,0.1978368000127375,5.9088850021362305
+Can personal data about criminal convictions be processed by private companies?,1.0,1.0,0.020877699949778616,0.19672030000947416,5.858626842498779
+Does the right to data portability apply to processing for a public interest task?,3.0,1.0,0.0243723999010399,0.2083874000236392,9.312154769897461
+Can a processor hire another processor without telling the controller?,1.0,1.0,0.021859099972061813,0.17412789992522448,6.686117172241211
+Is a household address book kept by an individual covered by the regulation?,1.0,1.0,0.02237980009522289,0.23818490002304316,0.9068545699119568
+Who must pay compensation when a processor causes damage?,2.0,2.0,0.021676399977877736,0.20519729994703084,6.30124568939209
+Can data be transferred to a country without an adequacy decision?,,,0.02324190002400428,0.21421230002306402,7.666573524475098
+Does the regulation protect information about people who have died?,1.0,1.0,0.02353519992902875,0.29888879996724427,5.544602870941162
+What penalties apply to a company that breaks the rules?,7.0,5.0,0.023676999961026013,0.26539299997966737,0.5121927261352539
+How much can a company be fined for violating the conditions for consent?,7.0,1.0,0.028266399982385337,0.2709927000105381,4.654871463775635
+Can a company refuse to delete my data because it needs it for a lawsuit?,,,0.0236283999402076,0.23028859996702522,-7.293318271636963
+Is a company forbidden from processing data about someone's religion?,,,0.02305970003362745,0.2092314000474289,0.5315295457839966
+Can an employer process biometric data?,1.0,2.0,0.024419400026090443,0.21132400003261864,-2.33813738822937
+Does an organisation that only occasionally processes data outside the EU need a representative?,,,0.026250499999150634,0.21761089994106442,-1.50620436668396
+Is the controller allowed to ignore a request that is excessive?,4.0,1.0,0.02215159998741001,0.21718839998356998,3.7482640743255615
+Can a controller refuse to act on a request that is repetitive?,2.0,1.0,0.023977900040335953,0.22135000000707805,6.377791404724121
+Who is not allowed to give instructions to the data protection officer?,2.0,1.0,0.02218979992903769,0.252352699986659,4.025708198547363
+Are courts supervised by the data protection authority?,,,0.018559499992989004,0.206844599917531,3.6371452808380127
+Can a supervisory authority check the work of a judge?,3.0,5.0,0.02309100003913045,0.21460880001541227,1.3674577474594116
+Can personal data be transferred abroad if the person explicitly agrees?,,,0.023019500076770782,0.20965350000187755,3.6030683517456055
+Can data be moved to a third country based on the individual's consent?,,,0.024001499987207353,0.21719440002925694,4.524771690368652
+When does the controller not need to inform a person whose data was obtained from someone else?,,,0.01384270004928112,0.2308847000822425,6.008549213409424
+Is the controller exempt from informing the data subject when providing the information would be impossible?,,,0.025653200107626617,0.22198340005706996,5.185083389282227
+Do small businesses need to appoint a data protection officer?,1.0,1.0,0.022473899996839464,0.1938472999026999,1.2249071598052979
+When must a company appoint a DPO?,,,0.021910900017246604,0.19509589998051524,-5.892025947570801
+Can someone withdraw their consent and is it as easy as giving it?,1.0,1.0,0.024509300012141466,0.22942059999331832,5.8021039962768555
+Does withdrawing consent make earlier processing illegal?,1.0,1.0,0.024343599914573133,0.22424490004777908,3.229060173034668
+Can a public authority rely on legitimate interests as a legal basis?,,,0.0219895999180153,0.20401560002937913,5.480995178222656
+What must a controller do if personal data is lost or stolen?,9.0,4.0,0.023467999999411404,0.19791680003982037,4.788167953491211
+Can marketing emails be stopped by the person?,3.0,4.0,0.02587759995367378,0.1965333999833092,-8.537507057189941
+Can I object to direct marketing at any time?,2.0,2.0,0.022222200059331954,0.19711499998811632,7.081263542175293
+What happens to the data after I object to direct marketing?,3.0,2.0,0.027519700000993907,0.2130389999365434,4.492491722106934
+Is it necessary to notify the supervisory authority when a breach is unlikely to cause harm?,1.0,2.0,0.013560299994423985,0.2093340998981148,5.85565185546875
+Can a processor be fined directly?,3.0,1.0,0.022378399968147278,0.27159330004360527,3.405200242996216
+Are fines imposed on public authorities?,2.0,2.0,0.01806680008303374,0.19246730010490865,6.628899097442627
+Can government bodies be fined under the GDPR?,4.0,1.0,0.022934500011615455,0.23196410003583878,-1.8720496892929077
+Can a child's consent be used for offline services?,1.0,2.0,0.026615000097081065,0.20747430005576462,-1.1090800762176514
+Can a profiling decision be based on sensitive data like health?,5.0,5.0,0.023845399962738156,0.22793559997808188,2.2873101234436035
+Is automated decision making allowed when it is needed for a contract?,1.0,1.0,0.01923410000745207,0.1977385999634862,4.475851058959961

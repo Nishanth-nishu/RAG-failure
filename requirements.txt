@@ -1,0 +1,9 @@
+pypdf>=6.0
+numpy>=2.0
+pandas>=2.2
+matplotlib>=3.9
+torch>=2.3
+transformers>=4.51
+sentence-transformers>=5.0
+jupyter
+requests  # only for the optional Gemini backend

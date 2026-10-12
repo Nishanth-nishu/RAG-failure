@@ -1,0 +1,10 @@
+id,category,gold_baseline_rank,gold_rerank_rank,baseline_top3,rerank_top3,in_top3_baseline,in_top3_rerank
+F1,Keyword trap / distractor,7.0,1.0,"['Recital 150', 'Article 84', 'Article 83']","['Article 83', 'Article 83', 'Article 83']",False,True
+F2,Exception / corner case,4.0,2.0,"['Article 34', 'Recital 86', 'Recital 85']","['Recital 85', 'Article 34', 'Article 34']",False,True
+F3,Negation & role limits,6.0,3.0,"['Article 38', 'Article 37', 'Article 39']","['Article 38', 'Article 37', 'Article 38']",False,True
+F4,Negation + synonym,4.0,1.0,"['Recital 64', 'Recital 63', 'Recital 47']","['Article 12', 'Recital 64', 'Recital 63']",False,True
+F5,Buried exception (rank 4-10),4.0,1.0,"['Recital 43', 'Recital 32', 'Article 7']","['Article 7', 'Recital 43', 'Recital 32']",False,True
+F6,Scope exception (rank 4-10),4.0,1.0,"['Article 83', 'Recital 154', 'Article 83']","['Article 83', 'Article 83', 'Article 83']",False,True
+L1,Limitation: recall ceiling,,,"['Recital 66', 'Article 17', 'Article 17']","['Article 17', 'Article 17', 'Recital 66']",False,False
+L2,Limitation: vocabulary gap,,,"['Article 54', 'Article 62', 'Article 56']","['Article 54', 'Recital 134', 'Recital 121']",False,False
+L3,Limitation: re-ranker regression,3.0,5.0,"['Recital 143', 'Recital 129', 'Article 55']","['Recital 118', 'Article 78', 'Recital 143']",True,False
